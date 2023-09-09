@@ -1,4 +1,6 @@
-#opens mo pin file
+#creates and opens mo pin file
+mopinfile = open("mopin.txt", "a")
+mopinfile.close
 mopinfile = open("mopin.txt", "r")
 #reads mo pin
 mopinfilecontents = mopinfile.read()
