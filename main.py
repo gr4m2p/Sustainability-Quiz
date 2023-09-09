@@ -75,7 +75,7 @@ def question(qnumber: str):
     else:
         print("error")
 #creates manual overide
-def mo(question):
+def mo(questionno):
     global mopinfilecontents
     os.system("cls")
     print("MANUAL OVERIDE: ENTER PIN")
@@ -86,7 +86,7 @@ def mo(question):
         pass
     else:
         print("INCORRECT PIN")
-        question(question)
+        question(questionno)
 question('1')
 question('2')
 question('3')
