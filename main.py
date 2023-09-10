@@ -33,7 +33,7 @@ def points():
 #question handler
 def question(qnumber: str):
     if qnumber == '1':
-        print("Would you buy anything that says sustainably sourced if you were tryting to be sustainable? [yes/no]")
+        print("Would you buy anything that says sustainably sourced if you were trying to be sustainable? [yes/no]")
         q1answer = input()
         if q1answer == 'yes':
             prepoints(1)
@@ -72,6 +72,7 @@ def question(qnumber: str):
             pass
         else:
             prepoints(-1)
+            points()
     else:
         print("error")
 #creates manual overide
