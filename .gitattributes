@@ -1,4 +1,4 @@
-*.spec linguist-detectable=false
+*.spec linguist-detectable=Java
 *.py linguist-language=Python
 *.html linguist-detectable=false
 *.toc linguist-detectable=false
